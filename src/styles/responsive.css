@@ -1,0 +1,13 @@
+@media (max-width: 425px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-todo{
+        margin-top: 2vh;
+    }
+
+    .input-todo{
+        width: 80%;
+    }
+}
