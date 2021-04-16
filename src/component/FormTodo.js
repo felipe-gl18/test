@@ -23,6 +23,7 @@ export function FormTodo({inputText, setInputText, setTodo, todo}){
                 onChange={HandleInputText} 
                 value={inputText}
                 className="input-todo"
+                placeholder="insira uma nova tarefa"
             />
             <button 
                 type="submit" 
